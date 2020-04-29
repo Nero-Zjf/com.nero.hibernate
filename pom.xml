@@ -14,16 +14,19 @@
     </modules>
 
     <dependencies>
+        <!--引入hibernate必备依赖-->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>4.3.5.Final</version>
         </dependency>
+        <!--引入c3p0数据源-->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>
             <version>4.3.5.Final</version>
         </dependency>
+        <!--引入mysql-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
